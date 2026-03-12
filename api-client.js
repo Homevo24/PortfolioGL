@@ -1,12 +1,10 @@
 /**
  * api-client.js — À ajouter dans ton dossier portfolio (front)
  * Ce fichier charge les données depuis le backend et met à jour les pages.
- *
- * ⚠️  Remplace API_URL par l'URL Railway de ton backend après déploiement
- *     Ex: https://portfolio-backend-gl.up.railway.app
- */
+ 
 
-const API_URL = 'https://TON-PROJET.up.railway.app'; // ← à remplacer
+
+const API_URL = 'https://portfolio-backend-production-c884.up.railway.app/'; // ← à remplacer
 
 // ─── Fonction principale ──────────────────────────────────────────────────────
 async function loadPortfolioData() {
